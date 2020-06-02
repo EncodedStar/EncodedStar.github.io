@@ -1,7 +1,7 @@
 # Basic
 title: EncodedStar的博客
 subtitle: 个人站
-description: 欢迎来到我的个人站~
+description: 欢迎来到EncodedStar的个人站~
 # 头像里面的标题
 avatarTitle: hexin
 # 头像里面的描述
@@ -10,7 +10,7 @@ url: "http://blog.luckyxin.club/"
 
 # Comment
 comment:
-    disqus: leopard
+    # disqus: leopard
     # gitment: xxx // 需要修改 comments.html中的client_id和client_secret
     # uyan: 2143225  # 有言id,登录有言官网申请
 
@@ -20,21 +20,15 @@ social:
     github: encodedstar
     # zhihu: panpanleopard
     # juejin: xxx
-    #jianshu: 2ada30d8d0f7
+    # jianshu: 2ada30d8d0f7
     # twitter: 
-    #mail: leopardpan@icloud.com
+    # mail: leopardpan@icloud.com
 
 
 # 百度统计 
 # 使用博客模板请去掉或者更换 id 
 baidu:
     id: 0c2dc7d4554b2307e23c40d3c2513187 
-
-# Google Analytics
-# 使用博客模板请去掉或者更换 id
-#ga:
-#    id: xxxx  
-#    host: auto  
 
 
 # 《----------------- 上面的信息修改成你自己的 ---------------------------》
