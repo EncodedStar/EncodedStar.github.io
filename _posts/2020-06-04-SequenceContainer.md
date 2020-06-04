@@ -6,6 +6,12 @@ description: "C++STL顺序容器"
 tag: C++实战笔记
 ...
 
+{% include JB/setup %}
+*  目录
+{:toc}
+
+----------
+
 ## 顺序容器
 
 顺序容器就是数据结构里的线性表，一共有 5 种：array、vector、deque、list、forward_list
@@ -54,7 +60,10 @@ vector/deque 和 list/forward_list 都可以动态增长来容纳更多的元素
 
 vector 的做法太“激进”，而 deque、list 的的扩容策略就“保守”多了，只会按照固定的“步长”（例如 N 个字节、一个节点）去增加容量。但在短时间内插入大量数据的时候就会频繁分配内存，效果反而不如 vector 一次分配来得好
 
+----------
+
 ## 成员函数
+
 ### vector 
 1. 元素访问
 	- at&emsp;访问指定元素，同时进行越界检查
@@ -122,6 +131,7 @@ vector 的做法太“激进”，而 deque、list 的的扩容策略就“保�
 	- pop&emsp;删除栈顶元素
 	- swap&emsp;交换内容
 
+----------
 
 ## 扩展
 
