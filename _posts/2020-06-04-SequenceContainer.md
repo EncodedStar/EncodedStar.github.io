@@ -4,7 +4,7 @@ title: "顺序容器"
 date: 2020-06-04
 description: "顺序容器就是数据结构里的线性表，一共有 5 种：array、vector、deque、list、forward_list"
 tag: C++实战笔记
-...
+---
 
 {% include JB/setup %}
 *  目录
