@@ -13,6 +13,8 @@ tag: C++实战笔记
 
 ## 顺序容器
 
+顺序容器就是数据结构里的线性表，一共有 5 种：array、vector、deque、list、forward_list
+
 ### 连续存储的数组 
 - array 与 vector 区别
 
