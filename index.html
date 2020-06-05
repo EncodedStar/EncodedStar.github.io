@@ -10,7 +10,7 @@ layout: default
         {% continue %}
       {% endif %}
       <li>
-        <h2 class="post-list__post-title post-title"> <b style="color:hsla(0,100%,50%,0.5);">[置顶] </b> <a href="{{ post.url }}" title="访问 {{ post.title }}">{{ post.title }}</a></h2>
+        <h2 class="post-list__post-title post-title"> <b style="color:rgb(255, 0, 0);"> [置顶]</b> <a href="{{ post.url }}" title="访问 {{ post.title }}">{{ post.title }}</a></h2>
         <p class="excerpt">{{ post.description | strip_html | strip_newlines | truncate: 250 }}&hellip;</p>
         <div class="post-list__meta">        
           <time datetime="{{post.date | date: date_to_xmlschema}}" class="post-list__meta--date date">
