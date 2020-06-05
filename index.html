@@ -6,9 +6,9 @@ layout: default
 
   <ol class="post-list">
     {% for post in paginator.posts %}
-      {* if post.stickie != true *}
-        {* continue *}
-      {* endif *}
+      {% if post.stickie != true %}
+        {% continue %}
+      {% endif %}
       <li>
         <h2 class="post-list__post-title post-title"><a href="{{ post.url }}" title="访问 {{ post.title }}">{{ post.title }}</a></h2>
         <p class="excerpt">{{ post.description | strip_html | strip_newlines | truncate: 250 }}&hellip;</p>
@@ -32,9 +32,9 @@ layout: default
     {% endfor %}
 
     {% for post in paginator.posts %}
-      {* if post.stickie == true *}
-        {* continue *}
-      {* endif *}
+      {% if post.stickie == true %}
+        {% continue %}
+      {% endif %}
       <li>
         <h2 class="post-list__post-title post-title"><a href="{{ post.url }}" title="访问 {{ post.title }}">{{ post.title }}</a></h2>
         <p class="excerpt">{{ post.description | strip_html | strip_newlines | truncate: 250 }}&hellip;</p>
