@@ -12,7 +12,6 @@ tag: 加密算法
 
 ## C++实现 
 
-
 ### DES.h
 ```c++
 #ifndef DESH
@@ -957,3 +956,4 @@ $str = $crypt->decrypt($mstr);
 echo "[ $mstr ]解密:[ $str ]<br>";
 ```
 
+原文链接:[c++ 实现des加密算法](https://www.zhaokeli.com/article/8223.html) 
